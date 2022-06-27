@@ -1,0 +1,140 @@
+<!-- <div class="container"> -->
+  <div class="row" style="display: flex; justify-content: space-between;">
+    <div class="col-4" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;">
+      <span>Home / Dashboard</span>
+      <span class="big-title">Shareholder Analysis</span>
+    </div>
+
+    <div class="col-8" style="display: flex; justify-items: flex-end; justify-content: flex-end;">
+      <select name="year" id="" class="select">
+        <option value="Year">Year</option>
+      </select>
+
+      <select name="year" id="" class="select">
+        <option value="Month">Category</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row" style="display: flex; justify-content: space-between; align-content: center; align-items: center; ">
+    <div class="col-4" style="display: inline-flex; justify-content: flex-start; align-items: center; padding: 20px 10px; column-gap: 20px;background: rgba(0, 150, 57, 0.15); border: 1px solid #F1F1F1; border-radius: 20px;">
+      <div>
+        <img src="assets/images/valuation.jpg" style="border-radius: 50%;" alt="">
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <span class="small-text">Valuation</span>
+        <span class="big-text">₦1.39</span>
+      </div>
+    </div>
+
+    <div class="col-4" style="display: inline-flex; justify-content: flex-start; align-items: center; padding: 20px 10px; column-gap: 20px; background: rgba(255, 130, 0, 0.15); border: 1px solid #F1F1F1; border-radius: 20px;">
+      <div>
+        <img src="assets/images/shareholders.jpg" style="border-radius: 50%;" alt="">
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <span class="small-text">Shareholders</span>
+        <span class="big-text">823.6K</span>
+      </div>
+    </div>
+
+    <div class="col-4" style="display: inline-flex; justify-content: flex-start; align-items: center; padding: 20px 10px; column-gap: 20px; background: rgba(255, 0, 43, 0.15); border: 1px solid #F1F1F1; border-radius: 20px;">
+      <div>
+        <img src="assets/images/shares.jpg" style="border-radius: 50%;" alt="">
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <span class="small-text">Shares</span>
+        <span class="big-text">10.6B</span>
+      </div>
+    </div>
+
+
+</div>
+
+<div class="row" style="margin-top: 20px;">
+<div class="col-5">
+  <h4>Shareholder Location</h4>
+  <div class="row row-cols-1 row-cols-md-1">
+    <div class="card radius-10 shadow-none bg-transparent">
+      <div class="card-body">
+          <div id="geographic-map"></div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="col-4">
+  <div class="col d-flex">
+    <div class="card radius-10 w-100">
+        <div class="card-body">
+            <div class="d-flex align-items-center">
+                <div>
+                    <h4 class="mb-0">Top 10 Shareholders</h4>
+                </div>
+                <div class="">
+
+                </div>
+            </div>
+            <div id="chart21"></div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-3">
+  <div class="card radius-10 w-100">
+    <div class="card-body">
+        <div class="d-flex align-items-center">
+            <div>
+                <h5 class="mb-0">Shareholders</h5>
+            </div>
+            <div class="font-22 ms-auto"><i class="bx bx-dots-horizontal-rounded"></i>
+            </div>
+        </div>
+        <div class="mt-4" id="chart9" style="height: 250px;"></div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="card radius-10 overflow-hidden w-100">
+    <div class="card-body">
+    <div class="d-flex align-items-center">
+      <div>
+        <h6 class="mb-0">Weekly sales</h6>
+      </div>
+      <div class="font-22 ms-auto"><i class="bx bx-dots-horizontal-rounded"></i>
+      </div>
+    </div>
+    <div class="chart-container-2 my-3">
+      <canvas id="chart2"></canvas>
+     </div>
+    </div>
+    <div class="table-responsive">
+    <table class="table align-items-center mb-0">
+      <tbody>
+      <tr>
+        <td><i class="bx bxs-circle me-2" style="color: #14abef"></i> Direct</td>
+        <td>$5856</td>
+        <td>+55%</td>
+      </tr>
+      <tr>
+        <td><i class="bx bxs-circle me-2" style="color: #02ba5a"></i>Affiliate</td>
+        <td>$2602</td>
+        <td>+25%</td>
+      </tr>
+      <tr>
+        <td><i class="bx bxs-circle me-2" style="color: #d13adf"></i>E-mail</td>
+        <td>$1802</td>
+        <td>+15%</td>
+      </tr>
+      <tr>
+        <td><i class="bx bxs-circle me-2" style="color: #fba540"></i>Other</td>
+        <td>$1105</td>
+        <td>+5%</td>
+      </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+

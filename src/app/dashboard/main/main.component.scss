@@ -1,0 +1,80 @@
+.select {
+    width: 200px;
+height: 56px;
+
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+// order: 1;
+flex-grow: 0;
+padding: 10px 15px;
+}
+
+
+.big-title {
+  font-weight: 700;
+font-size: 24px;
+line-height: 42px;
+/* identical to box height, or 124% */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.colored-text {
+  font-weight: 700;
+font-size: 23.672px;
+line-height: 32px;
+/* or 133% */
+
+letter-spacing: -0.02em;
+
+/* C Gradient */
+
+background: linear-gradient(90deg, #FF8200 1.35%, #FF002B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+// text-fill-color: transparent;
+}
+
+.grey-text {
+  font-weight: 500;
+font-size: 13.8087px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-card {
+  display: flex;
+  justify-content: space-between;
+  width: 664px;
+height: 138px;
+color: #FFFFFF;
+
+/* C Gradient */
+
+background: linear-gradient(90deg, #FF8200 1.35%, #FF002B 100%);
+border-radius: 20px;
+}
+
+.big-label {
+  font-style: normal;
+font-weight: 700;
+font-size: 30.9059px;
+line-height: 41px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.02em;
+}
